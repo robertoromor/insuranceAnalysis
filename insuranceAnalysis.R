@@ -1,14 +1,4 @@
 
-library(curl)
-library(plotly)
-library(dplyr)
-library(corrplot)
-
-insurance_data<-read.csv( curl("https://raw.githubusercontent.com/umaimat/Insurance-Analysis/master/SwedishMotorInsurance.csv") )
-colnames(insurance_data)<-c("kilometros", "municipio", "bono","modelo", "asegurados", "reclamaciones", "pagos")
-
-#1.
-#Histograma de cada una de las variables
 
 
 
